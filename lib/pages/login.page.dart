@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Container(
-                height: 480,
+                height: 400,
                 decoration: BoxDecoration(
                   color: Theme.of(context).accentColor,
                   boxShadow: [
@@ -28,7 +28,7 @@ class LoginPage extends StatelessWidget {
                       color: Colors.black12,
                       offset: new Offset(1, 2.0),
                       blurRadius: 5,
-                      spreadRadius: 1,
+                      spreadRadius: 2,
                     ),
                   ],
                 ),
@@ -36,7 +36,7 @@ class LoginPage extends StatelessWidget {
                   padding: EdgeInsets.only(
                     left: 15,
                     right: 15,
-                    top: 60,
+                    top: 25,
                   ),
                   child: Form(
                     key: _formKey,
@@ -76,7 +76,7 @@ class LoginPage extends StatelessWidget {
                           ],
                         ),
                         SizedBox(
-                          height: 60,
+                          height: 30,
                         ),
                         TextFormField(
                           // autofocus: true,
