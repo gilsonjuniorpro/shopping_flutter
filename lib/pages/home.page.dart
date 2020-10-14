@@ -32,7 +32,8 @@ class HomePage extends StatelessWidget {
               ),
               Container(
                 height: 90,
-                child: CategoryList(),
+                child: CategoryList(
+                    axis: Axis.horizontal), //this change just to training
               ),
               SizedBox(
                 height: 30,
