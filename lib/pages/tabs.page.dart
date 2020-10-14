@@ -18,12 +18,15 @@ class TabsPage extends StatelessWidget {
         tabs: [
           Tab(
             icon: new Icon(Icons.home),
+            //text: "home",
           ),
           Tab(
             icon: new Icon(Icons.shopping_cart),
+            //text: "cart",
           ),
           Tab(
             icon: new Icon(Icons.perm_identity),
+            //text: "profile",
           ),
         ],
         labelColor: Theme.of(context).primaryColor,
