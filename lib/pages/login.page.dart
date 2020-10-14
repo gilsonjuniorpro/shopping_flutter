@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Container(
-                height: 400,
+                height: 420,
                 decoration: BoxDecoration(
                   color: Theme.of(context).accentColor,
                   boxShadow: [

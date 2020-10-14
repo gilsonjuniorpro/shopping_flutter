@@ -41,6 +41,7 @@ class _SearchBoxState extends State<SearchBox>
             !menuOpened ? _controller.forward() : _controller.reverse();
             menuOpened = !menuOpened;
           },
+          minWidth: 20,
           child: AnimatedIcon(
             icon: AnimatedIcons.menu_close,
             progress: _controller,

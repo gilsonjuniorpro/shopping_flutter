@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:shopping_flutter/widgets/category/category-item.widget.dart';
 
 class CategoryList extends StatelessWidget {
-  final Axis direction;
+  final Axis scrollDirection;
 
-  CategoryList({@required this.direction});
+  CategoryList({@required this.scrollDirection});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: ListView(
-        scrollDirection: direction,
+        scrollDirection: scrollDirection,
         children: <Widget>[
           CategoryItem(image: "assets/Icon_Devices.png"),
           CategoryItem(image: "assets/Icon_Gadgets.png"),

@@ -16,9 +16,6 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              SizedBox(
-                height: 60,
-              ),
               SearchBox(),
               SizedBox(
                 height: 30,
@@ -33,7 +30,8 @@ class HomePage extends StatelessWidget {
               Container(
                 height: 90,
                 child: CategoryList(
-                    axis: Axis.horizontal), //this change just to training
+                    scrollDirection:
+                        Axis.horizontal), //this change just to training
               ),
               SizedBox(
                 height: 30,
