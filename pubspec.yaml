@@ -33,6 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  # flutter pub run flutter_launcher_icons:main
   flutter_launcher_icons: ^0.7.2
 
 flutter_icons:
